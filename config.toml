@@ -1,0 +1,60 @@
+baseURL = "/"
+theme = "casper-two"
+languageCode = "en-us"
+disqusShortname = ""
+paginate = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title = "M733 Marketing Analytics"
+  subtitle = "Fall 2020 Online"
+  author = "Ken Deal"
+  affiliation = "McMaster University | M733"
+
+  cover = "img/advanced.jpg"
+  description = "Marketing analytics"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "CaperKen"
+  fbName= ""
+  githubName = "CaperKen"
+
+  logo = "ocean_jelly.jpg"
+  orgName = "EM"
+  orgWebsite = ""
+
+  authorAvatar = "Milan_Ken.jpg"
+  authorLocation = "Cape Breton"
+  authorDescription = "Professor"
+
+
+[permalinks]
+ post = "/:slug/"
+
+[[menu.main]]
+ name = "Home"
+ url = "/"
+ weight = 200
+
+[[menu.main]]
+  name = "Video"
+  url = "/tags/Video/"
+  weight = 100
+
+[[menu.main]]
+  name = "PowerPoint"
+  url  = "/categories/PowerPoint"
+  weight = 99
+
+[[menu.main]]
+  name = "R_Markdown"
+  url = "https://google.com/"
+  weight = 95
+
+[[menu.main]]
+  name = "Projects"
+  url = "/"
+  weight = 90
